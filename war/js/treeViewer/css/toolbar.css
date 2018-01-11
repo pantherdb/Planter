@@ -1,0 +1,18 @@
+/*
+.w2ui-icon.msa_icon {
+    background: url('images/icon/msa.jpg') no-repeat center !important;
+}  */
+
+#slider {
+    margin: 10px;
+}
+.ui-slider-horizontal {
+    height: 8px;
+    width: 200px;
+}
+.ui-slider .ui-slider-handle {
+    height: 15px;
+    width: 5px;
+    padding-left: 5px;
+}
+

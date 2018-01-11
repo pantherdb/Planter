@@ -1,0 +1,17 @@
+unused.msa {
+            /*font-family: "Lucida Console", Monaco, monospace; */
+            font-family: monospace;
+    font-size: 5px;    
+}
+
+.msa_test{
+            /*Font and family has to be same as .ui-jqgrid tr.jqgrow td */
+            /*font-family: "Lucida Console", Monaco, monospace; */
+            font-family: monospace;
+            font-size: 14px; 
+    position: absolute;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    white-space: nowrap; 
+}

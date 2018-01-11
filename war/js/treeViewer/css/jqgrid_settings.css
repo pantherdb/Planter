@@ -1,0 +1,66 @@
+    .ui-jqgrid .ui-jqgrid-bdiv { overflow-y: scroll;}
+    
+        th.ui-th-column div {
+            /* see http://stackoverflow.com/a/7256972/315935 for details */
+/*            word-wrap: nowrap;   */   /* IE 5.5+ and CSS3 */
+            white-space: pre;  //Mozilla, since 1999 
+/*            white-space: -pre-wrap;      Opera 4-6 
+            white-space: -o-pre-wrap;    Opera 7 
+            white-space: pre-wrap;       CSS3 */
+            overflow: hidden;
+            height: auto !important;
+            vertical-align: middle;
+        }
+        .ui-jqgrid tr.jqgrow td {
+            white-space: pre;
+            height: auto;
+            vertical-align: middle;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            
+            /* ********** Added for TAV specify fixed sized font, elipses */
+            font-family: Arial, Helvetica, sans-serif;   /* "Lucida Console", Monaco, monospace; */ 
+            /* font-family: monospace; */
+            font-size: 14px;
+            line-height: 16px;
+            overflow: hidden;
+            text-overflow: ellipsis;-o-text-overflow: ellipsis;
+        }
+/*        .ui-jqgrid tr.jqgrow td.textInDiv div {
+            white-space: pre;
+            height: auto;
+            vertical-align: middle;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            
+             ********** Added for TAV specify fixed sized font, elipses 
+            font-family: Arial, Helvetica, sans-serif;    "Lucida Console", Monaco, monospace;  
+             font-family: monospace; 
+            font-size: 14px;
+            line-height: 16px;
+            overflow: hidden;
+            text-overflow: ellipsis;-o-text-overflow: ellipsis;
+        }        */
+        
+        .ui-jqgrid .ui-jqgrid-htable th.ui-th-column {
+            padding-top: 2px;
+            padding-bottom: 2px;
+            
+            /* ********** Added for TAV specify fixed sized font, elipses */
+            font-family: Arial, Helvetica, sans-serif;   /* "Lucida Console", Monaco, monospace; */ 
+            /* font-family: monospace; */
+            font-size: 14px;
+            line-height: 16px;            
+        }
+        .ui-jqgrid .frozen-bdiv, .ui-jqgrid .frozen-div {
+            overflow: hidden;
+        }
+/*
+th.ui-th-column div{
+    white-space:nowrap ;
+    height:auto !important;
+    padding:2px;
+}
+
+*/
+
