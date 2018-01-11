@@ -1,5 +1,7 @@
 # Planter
 Planter: The Plant Genome Database
+
+
 Instructions for Building the Planter package
 
 1.  Install JDK1.8.  This is the version that was last used for building.
